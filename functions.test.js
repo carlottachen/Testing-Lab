@@ -10,6 +10,9 @@ test('Name displays in greeting', () => {
 	let name = greeting('Carlotta');
 	expect(name).toBe('Hello, Carlotta.');
 });
+test('Name displays in greeting 2', () => {
+	expect(greeting('Charlie')).toBe('Hello, Charlie.');
+});
 
 describe('Math Functions tests', () => {
 	
